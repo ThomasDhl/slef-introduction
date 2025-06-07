@@ -190,6 +190,7 @@ nav {
 }
 
 /* 关于我 */
+/* 关于我 */
 .about-content {
     display: flex;
     align-items: center;
@@ -199,16 +200,18 @@ nav {
 
 .about-img {
     flex: 1;
-    border-radius: 10px;
+    max-width: 300px;
+    border-radius: 50%;
     overflow: hidden;
     box-shadow: var(--box-shadow);
+    border: 5px solid var(--primary-color);
 }
 
 .about-img img {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .about-img:hover img {
@@ -216,7 +219,7 @@ nav {
 }
 
 .about-text {
-    flex: 1;
+    flex: 2;
 }
 
 .about-text h3 {
