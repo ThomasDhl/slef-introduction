@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">个人简历</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#portfolio">作品</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是<span class="highlight">[你的名字]</span></h1>
+            <p>前端开发工程师 | UI设计师</p>
+            <a href="#contact" class="cta-button">联系我</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/profile.jpg" alt="个人照片">
+            </div>
+            <div class="about-text">
+                <h3>我是[你的名字]</h3>
+                <p>我是一名充满激情的前端开发工程师，专注于创造美观且用户友好的网站体验。我拥有3年以上的开发经验，擅长将设计转化为高质量的代码。</p>
+                <div class="personal-info">
+                    <p><span>姓名：</span>[你的名字]</p>
+                    <p><span>邮箱：</span>your.email@example.com</p>
+                    <p><span>电话：</span>+86 123 4567 8910</p>
+                    <p><span>地址：</span>中国，北京</p>
+                </div>
+                <a href="#" class="download-cv">下载简历</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>工作经历</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>前端开发工程师</h3>
+                    <h4>ABC科技有限公司</h4>
+                    <span class="date">2020年1月 - 至今</span>
+                    <p>负责公司网站和Web应用的前端开发，使用React.js和Vue.js框架。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>UI/UX设计师</h3>
+                    <h4>创意设计工作室</h4>
+                    <span class="date">2018年6月 - 2019年12月</span>
+                    <p>负责移动应用和网站的UI/UX设计，创建用户友好的界面。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>我的技能</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>前端技术</h3>
+                <div class="skill-item">
+                    <span class="skill-name">HTML5 & CSS3</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">React.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>设计工具</h3>
+                <div class="skill-item">
+                    <span class="skill-name">Figma</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Adobe XD</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Photoshop</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>作品集</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/project1.jpg" alt="项目1">
+                <div class="portfolio-overlay">
+                    <h3>电子商务网站</h3>
+                    <p>使用React和Node.js开发的完整电商平台</p>
+                    <a href="#" class="view-project">查看项目</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project2.jpg" alt="项目2">
+                <div class="portfolio-overlay">
+                    <h3>移动应用UI设计</h3>
+                    <p>使用Figma设计的健康追踪应用界面</p>
+                    <a href="#" class="view-project">查看项目</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project3.jpg" alt="项目3">
+                <div class="portfolio-overlay">
+                    <h3>企业官网</h3>
+                    <p>响应式企业网站开发</p>
+                    <a href="#" class="view-project">查看项目</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>联系我</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>联系方式</h3>
+                <p><i class="fas fa-envelope"></i> your.email@example.com</p>
+                <p><i class="fas fa-phone"></i> +86 123 4567 8910</p>
+                <p><i class="fas fa-map-marker-alt"></i> 中国，北京市朝阳区</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="你的名字" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="你的邮箱" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="主题">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="你的消息" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">发送消息</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [你的名字]. 保留所有权利.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
